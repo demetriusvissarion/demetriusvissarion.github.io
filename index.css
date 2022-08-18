@@ -1,4 +1,10 @@
 p {
   text-size: 22px;
   text-color: red;
+  font-weight: bold;
+}
+
+body {
+    display: block;
+    margin: 8px; 
 }
