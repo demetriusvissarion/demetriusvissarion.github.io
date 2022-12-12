@@ -8,21 +8,13 @@ html {
   box-sizing: inherit;
 }
 
-/* Mobile First */
-/* ---------------------------- */
-
-/* ------------- Start Mobile General Body --------------- */
 body {
-  background-color: #070035;
+  background-color: #656467;
   color: white;
   font-family: "Raleway", sans-serif;
   line-height: 1.5em;
   display: grid;
 }
-
-/* ------------- End Mobile General Body --------------- */
-
-/* -------------Start Mobile Header & Links --------------- */
 
 header {
   display: flex;
@@ -88,15 +80,11 @@ a:active,
   color: gold;
 }
 
-/* ------------- End Mobile Header & Links --------------- */
-
-/* ------------- Start Mobile Main --------------- */
 main {
   display: flex;
   flex-direction: column;
 }
 
-/* ------------- Start Mobile Banner --------------- */
 .banner-top,
 .banner-bottom {
   background: #2e2cac;
@@ -112,7 +100,7 @@ main {
 }
 
 .banner-top {
-  background-image: url("./resources/banner_top.jpg"); 
+  background-image: url("./resources/banner_top.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,9 +145,7 @@ h1 {
   text-decoration: none;
   display: inline-block;
 }
-/* ------------- End Mobile Banner --------------- */
 
-/* ------------- Start Mobile Main Container --------------- */
 .main-container {
   display: flex;
   margin: 0;
@@ -169,8 +155,6 @@ h1 {
   background-color: whitesmoke;
   color: #070035;
 }
-
-/* ------------- Start Mobile Sections --------------- */
 
 #About,
 #Projects,
@@ -185,7 +169,6 @@ h1 {
   padding-bottom: 2em;
 }
 
-/* ------------- Start Mobile About --------------- */
 .info-card-left {
   display: flex;
   flex-direction: column;
@@ -207,9 +190,7 @@ h1 {
   object-fit: contain;
   object-position: center center;
 }
-/* ------------- End Mobile About --------------- */
 
-/* ------------- Start Mobile Projects --------------- */
 #Projects {
   text-align: center;
 }
@@ -248,9 +229,7 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
-/* ------------- End Mobile Projects --------------- */
 
-/* ------------- Start Mobile Skills --------------- */
 #Skills {
   text-align: center;
 }
@@ -277,9 +256,6 @@ details[open] summary {
   height: auto;
 }
 
-/* ------------- End Mobile Skills --------------- */
-
-/* ------------- Start Mobile Contact --------------- */
 .social-media {
   display: flex;
   flex-wrap: wrap;
@@ -298,15 +274,7 @@ details[open] summary {
 .social-media img {
   max-height: 3em;
 }
-/* ------------- End Mobile Contact --------------- */
 
-/* ------------- End Mobile Sections --------------- */
-
-/* ------------- End Mobile Main Container --------------- */
-
-/* ------------- End Mobile Main --------------- */
-
-/* ------------- Start Mobile Footer --------------- */
 footer {
   display: flex;
   flex-direction: column;
@@ -315,13 +283,8 @@ footer {
   line-height: 2.5em;
   margin: 1.5em;
 }
-/* ------------- End Mobile Footer --------------- */
 
-/* ---------------------------- */
-
-/* Desktop */
 @media screen and (min-width: 1024px) {
-  /* -------------Start Desktop Header & Links --------------- */
   header {
     margin: 2.5em;
     justify-content: space-between;
@@ -357,10 +320,7 @@ footer {
     font-weight: bold;
     padding: 0.5em;
   }
-  /* -------------End Desktop Header & Links --------------- */
 
-  /* ------------- Start Desktop Main --------------- */
-  /* ------------- Start Desktop Banner --------------- */
   .banner-top {
     height: 25em;
   }
@@ -375,13 +335,11 @@ footer {
   h1 {
     font-size: 3em;
   }
-  /* ------------- End Desktop Banner --------------- */
-  /* ------------- Start Desktop Main Container --------------- */
+
   .main-container {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
   }
-  /* ------------- Start Desktop Sections --------------- */
 
   #About,
   #Projects,
@@ -392,32 +350,13 @@ footer {
     align-items: center;
   }
 
-  /* ------------- Start Desktop About --------------- */
   .info-card-left {
     flex-direction: row;
     justify-content: space-between;
     text-align: start;
   }
-  /* ------------- End Desktop About --------------- */
-
-  /* ------------- Start Desktop Projects --------------- */
 
   .cards-container {
     flex-direction: row;
   }
-
-  /* ------------- End Desktop Projects --------------- */
-
-  /* ------------- Start Desktop Skills --------------- */
-
-  /* ------------- End Desktop Skills --------------- */
-
-  /* ------------- End Desktop Sections --------------- */
-
-  /* ------------- End Desktop Main Container --------------- */
-  /* ------------- End Desktop Main --------------- */
-
-  /* ------------- Start Desktop Footer --------------- */
-
-  /* ------------- End Desktop Footer --------------- */
 }
