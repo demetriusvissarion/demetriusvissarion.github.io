@@ -213,9 +213,30 @@ h1 {
   overflow: hidden;
   margin: 1.75em;
 }
+
 .project-card img {
   width: 100%;
   height: auto;
+}
+
+#youtube_img {
+  width: 100%;
+  height: 73%;
+}
+
+#pig_game_img {
+  width: 100%;
+  height: 73%;
+}
+
+#jammming_img {
+  width: 100%;
+  height: 73%;
+}
+
+#tea_cozy_img {
+  width: 100%;
+  height: 73%;
 }
 
 summary {
