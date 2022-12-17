@@ -29,19 +29,28 @@
           <li class="nav-item"><a href="#About">About Me</a></li>
           <li class="nav-item"><a href="#Projects">Projects</a></li>
           <li class="nav-item"><a href="#Skills">Skills</a></li>
-          <li class="nav-item"><a href="">Contact</a></li>
+          <li class="nav-item">
+            <a href="mailto:demetrius.vissarion@gmail.com" target="_blank"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="banner-top">
+        <h1>Welcome</h1>
         <div class="overlay">
-          <h1>Welcome</h1>
+          <img
+            id="banner_img"
+            src="./resources/banner.avif"
+            alt="banner image"
+          />
         </div>
       </div>
       <div class="banner-bottom">
-        <p id="random-message"></p>
-        <button id="random-button">Click Me for a Random Message</button>
+        <!-- <p id="random-message"></p>
+        <button id="random-button">Click Me for a Random Message</button> -->
       </div>
       <div class="main-container">
         <div></div>
@@ -55,7 +64,7 @@
                 </p>
               </div>
               <figure class="info-image">
-                <img src="./resources/about_me.png" alt="personal image" />
+                <!-- <img src="./resources/about_me.png" alt="personal image" /> -->
                 <figcaption></figcaption>
               </figure>
             </div>
@@ -63,13 +72,6 @@
 
           <section id="Projects">
             <h2>Projects</h2>
-            <p>
-              Here you can watch and learn about some of the projects I've been
-              working. If you'd like to provide me with some feedback, don't
-              hesitate and
-              <a href="link#">contact me</a>.
-            </p>
-            <p>Projects</p>
             <div class="cards-container">
               <div class="project-card">
                 <figure>
@@ -202,6 +204,12 @@
               </div>
             </div>
             <p>
+              If you'd like to provide me with some feedback, don't hesitate and
+              <a href="https://demetrius.vissarion@gmail.com" target="_blank"
+                >contact me</a
+              >.
+            </p>
+            <p>
               This page also includes a JS message generator for showing random
               information
             </p>
@@ -209,21 +217,12 @@
 
           <section id="Skills">
             <h2>Skills</h2>
-            <p>
-              Here you can know some of the skills I've been acquiring in the
-              development of my professional career. Most of the
-              programming-related skills have been acquired in a self-taught way
-            </p>
             <div class="skills-container">
               <div class="skill-card">
                 <figure>
                   <img src="./resources/html.svg" alt="HTML image" />
                   <figcaption>
                     <h3>HTML</h3>
-                    <p>
-                      Level: <br />
-                      Intermediate
-                    </p>
                   </figcaption>
                 </figure>
               </div>
@@ -232,34 +231,42 @@
                   <img src="./resources/css.svg" alt="CSS image" />
                   <figcaption>
                     <h3>CSS</h3>
-                    <span
-                      >Level: <br />
-                      Intermediate</span
-                    >
                   </figcaption>
                 </figure>
               </div>
+
               <div class="skill-card">
                 <figure>
                   <img src="./resources/javascript.svg" alt="JS image" />
                   <figcaption>
                     <h3>JavaScript</h3>
-                    <span
-                      >Level: <br />
-                      Intermediate</span
-                    >
                   </figcaption>
                 </figure>
               </div>
+
+              <div class="skill-card">
+                <figure>
+                  <img src="./resources/react.png" alt="React image" />
+                  <figcaption>
+                    <h3>React</h3>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="skill-card">
+                <figure>
+                  <img src="./resources/nodejs.png" alt="Node.js image" />
+                  <figcaption>
+                    <h3>Node.js</h3>
+                  </figcaption>
+                </figure>
+              </div>
+
               <div class="skill-card">
                 <figure>
                   <img src="./resources/python.svg" alt="Python image" />
                   <figcaption>
                     <h3>Python</h3>
-                    <span
-                      >Level: <br />
-                      Intermediate</span
-                    >
                   </figcaption>
                 </figure>
               </div>
@@ -268,10 +275,6 @@
                   <img src="./resources/sql.png" alt="SQL image" />
                   <figcaption>
                     <h3>SQL</h3>
-                    <span
-                      >Level: <br />
-                      Basic</span
-                    >
                   </figcaption>
                 </figure>
               </div>
@@ -280,10 +283,6 @@
                   <img src="./resources/git.svg" alt="Git image" />
                   <figcaption>
                     <h3>Git</h3>
-                    <span
-                      >Level: <br />
-                      Intermediate</span
-                    >
                   </figcaption>
                 </figure>
               </div>

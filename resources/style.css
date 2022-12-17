@@ -107,8 +107,18 @@ main {
   height: 20em;
 }
 
+.banner-bottom {
+  padding: 1.5em;
+  min-height: 10em;
+}
+
+#banner_img {
+  width: 100%;
+}
+
 .overlay {
   display: flex;
+  flex-direction: column;
   background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   width: 100%;
@@ -121,10 +131,6 @@ h1 {
   font-size: 2.5em;
   z-index: 2;
   line-height: 1.5em;
-}
-
-.banner-bottom {
-  padding: 1.5em;
 }
 
 #random-message {
@@ -199,13 +205,24 @@ h1 {
   flex-direction: column;
 }
 
-.project-card,
+.project-card {
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid #070035;
+  border-radius: 1em;
+  margin: 1em;
+  background-color: #fbffde;
+}
+
 .skill-card {
   display: flex;
   border: 1px solid #070035;
   border-radius: 1em;
   margin: 1em;
   background-color: #fbffde;
+  min-width: 8em;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-card figure {
@@ -243,7 +260,7 @@ details[open] summary {
 
 .skill-card figure {
   max-width: 6.5em;
-  min-height: 10em;
+  min-height: 5em;
   flex-direction: column;
   justify-content: space-around;
   justify-items: center;
