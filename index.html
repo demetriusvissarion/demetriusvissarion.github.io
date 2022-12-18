@@ -5,7 +5,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Personal Portfolio</title>
+    <title>Portfolio</title>
     <link rel="shortcut icon" href="link#" type="image/x-icon" />
     <link rel="icon" href="link#" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="./resources/normalize.css" />
@@ -16,44 +16,52 @@
   </head>
   <body>
     <header>
-      <div class="personal-brand">
-        <img src="./resources/myLogo.png" alt="logo personal" />
-        <div class="brand-text">
-          <p class="page-title">My Personal Portfolio</p>
-          <!-- <p class="page-author">by Demetrius Vissarion</p> -->
+      <div id="fixed-header-container">
+        <img
+          id="navbar_img"
+          src="https://media.giphy.com/media/xT8qBg3QEdkZlphy7u/giphy.gif"
+          alt="navbar image"
+        />
+        <div class="personal-brand">
+          <!-- <img src="./resources/myLogo.png" alt="logo personal" /> -->
+          <div class="brand-text">
+            <p class="page-title">My Personal Portfolio</p>
+          </div>
         </div>
+        <nav>
+          <ul class="nav-items">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item">
+              <a href="#about_link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects_link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:demetrius.vissarion@gmail.com" target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#About">About Me</a></li>
-          <li class="nav-item"><a href="#Projects">Projects</a></li>
-          <li class="nav-item"><a href="#Skills">Skills</a></li>
-          <li class="nav-item">
-            <a href="mailto:demetrius.vissarion@gmail.com" target="_blank"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
     </header>
     <main>
       <div class="banner-top">
-        <h1>Welcome</h1>
+        <!-- <h1 class="test-hover-effect">Welcome</h1> -->
         <div class="overlay">
           <img
             id="banner_img"
-            src="./resources/banner.avif"
+            src="https://media.giphy.com/media/l3xRmmC5pvwNHJGZt1/giphy-downsized-large.gif"
             alt="banner image"
           />
         </div>
       </div>
-      <div class="banner-bottom">
-        <!-- <p id="random-message"></p>
-        <button id="random-button">Click Me for a Random Message</button> -->
-      </div>
-      <div class="main-container">
-        <div></div>
+      <div class="main-container" id="about_link">
+        <div id="projects_link banner-bottom"></div>
         <div class="content">
           <section id="About">
             <div class="info-card-left">
@@ -63,10 +71,6 @@
                   My name is Demetrius Vissarion and I'm a Full Stack Developer
                 </p>
               </div>
-              <figure class="info-image">
-                <!-- <img src="./resources/about_me.png" alt="personal image" /> -->
-                <figcaption></figcaption>
-              </figure>
             </div>
           </section>
 
@@ -208,10 +212,6 @@
               <a href="https://demetrius.vissarion@gmail.com" target="_blank"
                 >contact me</a
               >.
-            </p>
-            <p>
-              This page also includes a JS message generator for showing random
-              information
             </p>
           </section>
 
