@@ -327,6 +327,10 @@ footer {
   #navbar_img {
     display: none;
   }
+
+  .nav-items {
+    padding-right: 1em;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -399,6 +403,15 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+  }
+
+  #center_about_me {
+    font-size: 1.5em;
+  }
+
+  #problem_solver:hover {
+    color: red;
+    font-weight: 900;
   }
 
   .cards-container {
