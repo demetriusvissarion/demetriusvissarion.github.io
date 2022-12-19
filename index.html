@@ -8,13 +8,11 @@
     <title>Portfolio</title>
     <link rel="shortcut icon" href="link#" type="image/x-icon" />
     <link rel="icon" href="link#" type="image/x-icon" />
-    <!-- <link rel="stylesheet" type="text/css" href="./resources/normalize.css" /> -->
     <link
       rel="stylesheet"
       type="text/css"
       href="./resources/styles/style.css"
     />
-    <link rel="stylesheet" href="./resources/styles/css2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
   </head>
@@ -71,8 +69,10 @@
             <div class="info-card-left">
               <div class="info-block">
                 <h2>About Me</h2>
-                <p>
-                  My name is Demetrius Vissarion and I'm a Full Stack Developer
+                <p id="center_about_me">
+                  My name is Demetrius Vissarion and I'm a
+                  <span id="problem_solver">PROBLEM SOLVER</span>, working as a
+                  Full Stack Developer.
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@
               <div class="project-card">
                 <figure>
                   <img
-                    id="jammming_img"
+                    class="project_img"
                     src="./resources/img/jammming.jpg"
                     alt="jammming image"
                   />
@@ -92,7 +92,7 @@
                     <details>
                       <summary>Jammming</summary>
                       <p>
-                        Playlist App created with the Spotify API (in React)
+                        Playlist App created with the Spotify API (in old React)
                       </p>
                       <p>
                         Page link:
@@ -118,7 +118,7 @@
               <div class="project-card">
                 <figure>
                   <img
-                    id="pig_game_img"
+                    class="project_img"
                     src="./resources/img/pig-game.png"
                     alt="pig-game image"
                   />
@@ -150,7 +150,7 @@
               <div class="project-card">
                 <figure>
                   <img
-                    id="youtube_img"
+                    class="project_img"
                     src="./resources/img/youtube-clone.png"
                     alt="youtube-clone image"
                   />
@@ -182,7 +182,7 @@
               <div class="project-card">
                 <figure>
                   <img
-                    id="tea_cozy_img"
+                    class="project_img"
                     src="./resources/img/tea-cozy.jpg"
                     alt="tea-cozy"
                   />
@@ -297,7 +297,6 @@
     </main>
     <div></div>
     <footer>
-      <p class="page-title">My Personal Portfolio Website</p>
       <p class="page-author">by Demetrius Vissarion</p>
       <p class="page-author">© 2022</p>
     </footer>
